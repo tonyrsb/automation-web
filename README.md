@@ -1,7 +1,6 @@
-# automation-web
 
 ![cypress](https://img.shields.io/badge/AT--WEBUI-Cypress-yellow.svg) ![coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)
-# rll-automation-web
+# automation-web
 
 > Cypress
 
