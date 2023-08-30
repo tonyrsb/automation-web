@@ -32,9 +32,9 @@ beforeEach(() => {
   cy.clearCookies();
   cy.visit(`${Cypress.env('AUTH_URL')}/login`, {failOnStatusCode: false, chromeWebSecurity: false});
   cy.get(obj.email).click();
-  cy.get(obj.email).type('raff.dabeat@gmail.com');
+  cy.get(obj.email).type(<your email>);
   cy.get(obj.next).click();
-  cy.get(obj.password).type('CmbSdySgpHk93');
+  cy.get(obj.password).type(<your password>);
   cy.get(obj.loginButton).click();
   cy.get(obj.imgProfile).should(element => {
     expect(element).to.be.visible;
